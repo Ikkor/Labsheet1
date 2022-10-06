@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{D1F09DB4-571E-4D0E-9211-236979438C6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labsheet1", "Labsheet1", "{6481EDA9-0D3F-4045-A94B-9DB0C676A9C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF9024EB-BFAC-4EF1-A8CE-07ED17636018} = {6481EDA9-0D3F-4045-A94B-9DB0C676A9C7}
+		{D1F09DB4-571E-4D0E-9211-236979438C6B} = {6481EDA9-0D3F-4045-A94B-9DB0C676A9C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4BAA4B2-76BC-40C0-9AA5-ABD85064C4E7}
