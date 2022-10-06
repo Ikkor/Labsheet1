@@ -27,11 +27,8 @@ namespace Classes
                 prevEnumVal = (int)thisEnum;
             }
         }
-
         private static void CheckNumber(int x)
         {
-
-
             var prevEnumVal = -1;
             foreach (Category thisEnum in Enum.GetValues(typeof(Category)))
             {
@@ -56,12 +53,7 @@ namespace Classes
                 CheckNumber(userInput);
             }
 
-
-
-
         }
 
-
-       
     }
 }

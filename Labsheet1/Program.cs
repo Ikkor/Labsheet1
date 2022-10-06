@@ -11,8 +11,6 @@ namespace Labsheet1
     {
         static void Main(string[] args)
         {
-
-
             Logic.Launcher();
            
         }
