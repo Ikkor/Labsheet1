@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace customStack
 {
-    public class CustomStack<T> where T : IIntern
+    public class CustomStack<T>
     {
         static int maxElements = 10;
         private int _pointer = 0;
