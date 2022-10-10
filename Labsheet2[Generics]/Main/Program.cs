@@ -11,12 +11,10 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            var stack = new CustomStack<Jedi>();
+            var stack = new CustomStack<IIntern>();
             stack.Push(new Jedi("navin", 3));
             stack.Push(new Jedi("pravin", 2));
             stack.Push(new Jedi("arvin", 1));
-
-
 
             CustomStackExtendedOP.DisplayAllInternsNameAndId(stack);
 

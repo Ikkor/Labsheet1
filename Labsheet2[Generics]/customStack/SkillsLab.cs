@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace customStack
 {
-    public class SkillsLab:IIntern
+    public class SkillsLab : IIntern
     {
         private string _name { get; set; }  
 

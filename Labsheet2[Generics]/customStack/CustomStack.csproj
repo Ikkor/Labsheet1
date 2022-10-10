@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomStackExtendedOP.cs" />
-    <Compile Include="ICustomStack.cs" />
     <Compile Include="IIntern.cs" />
     <Compile Include="SkillsLab.cs" />
     <Compile Include="Jedi.cs" />

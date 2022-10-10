@@ -9,7 +9,7 @@ namespace customStack
     public class CustomStackExtendedOP
     {
 
-        public static void DisplayAllInternsNameAndId(CustomStack<Jedi> _stack)
+        public static void DisplayAllInternsNameAndId(CustomStack<IIntern> _stack)
         {
             while (_stack.Count() > 0)
             {
